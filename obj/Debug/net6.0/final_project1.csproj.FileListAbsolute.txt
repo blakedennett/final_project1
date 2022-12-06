@@ -1,0 +1,15 @@
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\bin\Debug\net6.0\final_project1.exe
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\bin\Debug\net6.0\final_project1.deps.json
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\bin\Debug\net6.0\final_project1.runtimeconfig.json
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\bin\Debug\net6.0\final_project1.dll
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\bin\Debug\net6.0\final_project1.pdb
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.csproj.AssemblyReference.cache
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.AssemblyInfoInputs.cache
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.AssemblyInfo.cs
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.csproj.CoreCompileInputs.cache
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.dll
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\refint\final_project1.dll
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.pdb
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\final_project1.genruntimeconfig.cache
+C:\Users\Blake Dennett\Downloads\fall2022\ProgrammingWithClasses\github\final_project1\obj\Debug\net6.0\ref\final_project1.dll
