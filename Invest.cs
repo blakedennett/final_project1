@@ -7,13 +7,13 @@ class Invest {
 
     public double ComputeTotal(int initial, double rate, int years, int paymentAmount) {
 
-        yearlyInvestment += initial; 
+       yearlyInvestment += initial; 
 
         int numOfPayments = years * 12;
 
         double monthlyRate = rate / 12;
 
-        while (numOfPayments > 1) {
+        while (numOfPayments > 0) {
 
             yearlyInvestment += (yearlyInvestment * monthlyRate) + paymentAmount;
 
