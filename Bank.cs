@@ -5,6 +5,8 @@ class Bank {
     static double numBal; 
     static double numTransaction;
 
+    static bool isDeposit;
+
 
     public double GetBal() {
         bool done = false;
@@ -45,6 +47,41 @@ class Bank {
         }
 
         return numTransaction;
+    }
+
+    public bool IsDeposit() {
+
+        bool done = false;
+
+        List<string> possibleValues = new List<string>();
+
+        possibleValues.Add("w");
+        possibleValues.Add("withdrawal");
+        possibleValues.Add("d");
+        possibleValues.Add("deposit");
+
+        while (done != true) {
+
+            Console.Write("Is this a deposit or a withdrawal? ");
+
+            string? input = Console.ReadLine().ToLower(); 
+
+            if (possibleValues.Contains(input)) {
+                done = true;
+                if (input == "w" || input == "withdrawal") {
+                    isDeposit = false;
+                }
+                else {
+                    isDeposit = true;
+                }
+            }
+            else {
+                Console.WriteLine("Not a valid response, please try again");
+            }
+
+        }
+
+        return isDeposit;
     }
 
 
