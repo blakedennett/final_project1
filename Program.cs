@@ -18,8 +18,19 @@ if (type == 1) {
     double rate = invest.GetRate();
     int years = invest.GetYears();
     int monthlyPayment = invest.GetMonthlyPayment();
-    double total = invest.ComputeTotal(initial, rate, years, monthlyPayment);
-    Console.WriteLine($"The amount is {total}");
+    try
+    {
+        double total = invest.ComputeTotal(initial, rate, years, monthlyPayment);
+        if (total < 0) {
+            total = 0;
+        }
+        Console.WriteLine($"The amount is {total}");
+    }
+    catch (DivideByZeroException e)
+    {
+        Console.WriteLine (e.Message);
+    }
+
     Console.WriteLine("Thank you for using the Investing Calculator! Goodbye");
 }
 
@@ -37,8 +48,19 @@ if (type == 3) {
     int principal = amoritization.GetPrincipal();
     double interest = amoritization.GetInterest();
     int numPayments = amoritization.GetYears();
-    double monthlyPayment = amoritization.DoMath(principal, interest, numPayments);
-    Console.WriteLine($"The amount is {monthlyPayment}");
+    try
+    {
+        double monthlyPayment = amoritization.DoMath(principal, interest, numPayments);
+        if (monthlyPayment < 0) {
+            monthlyPayment = 0;
+        }
+        Console.WriteLine($"The amount is {monthlyPayment}");
+    }
+    catch (DivideByZeroException e)
+    {
+        Console.WriteLine (e.Message);
+    }
+    
     Console.WriteLine("Thank you for using the Amoritization Calculator! Goodbye");
 }
 
